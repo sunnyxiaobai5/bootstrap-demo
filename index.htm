@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-	<meta charset="gbk">
+	<meta charset="utf-8">
 	<title>index</title>
 	<link rel="stylesheet" href="css/bootstrap.css" />
 </head>
 <body>
 	<!-- header start -->
-	<div class="navbar navbar-inverse" role="navigation">
+	<div class="navbar navbar-inverse">
 		<div class="container">
 			<div class="navbar-header">
 				<a href="#" class="navbar-brand">Bootstrap</a>
 			</div>
 			<ul class="nav navbar-nav">
+				<li><a href="#">栏目一</a></li>
 				<li><a href="#">栏目一</a></li>
 				<li><a href="#">栏目一</a></li>
 				<li><a href="#">栏目一</a></li>
@@ -50,7 +51,7 @@
 	<!-- flash start -->
 	<div class="container">
 		<div style="height:300px">
-			flash 区域
+			banner 区域
 		</div>
 		<hr />
 	</div>
@@ -60,17 +61,64 @@
 	<div class="container">
 		<div class="col-md-2">
 			<ul class="nav nav-pills nav-stacked">
-				<li class="active"><a href="#">导航1</a></li>
-				<li><a href="#">导航1</a></li>
-				<li><a href="#">导航1</a></li>
-				<li><a href="#">导航1</a></li>
+				<li class="active"><a href="#tab1" data-toggle="tab">导航1</a></li>
+				<li><a href="#tab2" data-toggle="tab">导航1</a></li>
+				<li><a href="#tab2" data-toggle="tab">导航1</a></li>
+				<li><a href="#tab3" data-toggle="tab">导航1</a></li>
+				<li><a href="#tab4" data-toggle="tab">导航1</a></li>
 			</ul>
 		</div>
-		<div class="col-md-8">
-			主内容区
+		<div class="tab-content col-md-8">
+			<div class="tab-pane active" id="tab1">
+				内容1内容1内容1内容1内容1内容1内容1内容1内容1内容1内容1内容1内容1内容1内容1内容1内容1内容1内容1内容1内容1内容1
+			</div>
+			<div class="tab-pane" id="tab2">
+				内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2内容2
+			</div>
+			<div class="tab-pane" id="tab3">
+				内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3内容3
+			</div>
+			<div class="tab-pane" id="tab4">
+				内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4内容4
+			</div>
 		</div>
 	</div>
 	<!-- main end -->
+
+	<hr />
+	
+	<div class="container">
+		<div class="col-md-2">
+			<ul class="nav" id="accordion">
+				<li class="active">
+					<a href="#collapse1" data-toggle="collapse" data-parent="#accordion">导航1</a>
+					<ul class="collapse" id="collapse1">
+						<li><a href="#">nav1</a></li>
+						<li><a href="#">nav2</a></li>
+						<li><a href="#">nav3</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#collapse2" data-toggle="collapse" data-parent="#accordion">导航2</a>
+					<ul class="collapse" id="collapse2">
+						<li><a href="#">nav1</a></li>
+						<li><a href="#">nav2</a></li>
+						<li><a href="#">nav3</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#collapse3" data-toggle="collapse" data-parent="#accordion">导航3</a>
+					<ul class="collapse" id="collapse3">
+						<li><a href="#">nav1</a></li>
+						<li><a href="#">nav2</a></li>
+						<li><a href="#">nav3</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	
 
 	<hr />
 
